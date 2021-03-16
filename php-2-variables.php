@@ -8,17 +8,17 @@
 </head>
 <body>
         <?php 
-        $nomFilmVo = 'Indiana Jones and the Last Crusade';
-        echo $nomFilmVo;
+        $nameMovieVo = 'Indiana Jones and the Last Crusade';
+        echo $nameMovieVo;
 
-        $dejaVu = false;
-        echo $dejaVu;
+        $allreadySeen = false;
+        echo $allreadySeen;
 
-        $SortieSalle = 1989;
-        echo $SortieSalle;
+        $RealeseDate = 1989;
+        echo $SRealeseDate;
 
-        $noteFilm = 8.2;
-        echo $nomFilmVo;
+        $rateMovie = 8.2;
+        echo $rateMovie;
         ?>
 </body>
 </html>
