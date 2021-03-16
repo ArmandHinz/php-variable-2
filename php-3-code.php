@@ -17,17 +17,20 @@
         $message3 ="aopi?sgnirts@#?sedhtg+p9l!";
         //des strings
 
- function decode(message){
+ function decode($message){
     //Première étape
-        $longueur = strlen(message) / 2;
+        $longueur = strlen($message) / 2;
     // dexième étape
-        $sousChaine = substr(message, 5, $longueur);
+        $sousChaine = substr($message, 5, $longueur);
     // trosième étape
         $remplace = str_replace('@#?', ' ', $sousChaine);
     // quatrième étape
         echo strrev($remplace);
  };
+
+echo decode()
         ?>
+
 </p>
 
 

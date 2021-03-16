@@ -16,16 +16,11 @@
 
         foreach($film as $key => $film){
             echo " ".$key.'dont les acteurs'." ";
-            foreach($film as $key => $film){
-                echo " - ".$film;
-            }
+                foreach($film as $key => $film){
+                    echo " - ".$film;
+                }
             echo " /";
         }
-        
-        
-
-
-
     ?>
 </body>
 </html>
